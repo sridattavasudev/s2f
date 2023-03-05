@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Sign 2 Future",
+    "slug": "S2F",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/loading1.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo1.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.S2F.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
